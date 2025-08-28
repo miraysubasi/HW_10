@@ -1,0 +1,238 @@
+    1  code .
+    2  code .
+    3  code .
+    4  code .
+    5  code .
+    6  code .
+    7  dotnet new sln
+    8  dir
+    9  dotnet new classlib -o MiniShop.Entity
+   10  dotnet new classlib -o MiniShop.Data
+   11  dotnet new classlib -o MiniShop.Business
+   12  dotnet new classlib -o MiniShop.API
+   13  dotnet sln add MiniShop.Entity
+   14  dotnet sln add MiniShop.Data
+   15  dotnet sln add MiniShop.Data
+   16  dotnet sln add MiniShop.Business
+   17  dotnet sln add MiniShop.API
+   18  dotnet remove package Microsoft.EntityFrameworkCore.SqlServer
+   19  git config --list 
+   20  git config --global user.name
+   21  git config --global user.mail
+   22  whoami
+   23  help
+   24  help cd
+   25  clear
+   26  cd help
+   27  cls
+   28  pwd
+   29  clear
+   30  pwd
+   31  cd desktop
+   32  cd desktop
+   33  pwd
+   34  clear
+   35  cd desktop
+   36  cd masaustu
+   37  cd
+   38  pwd
+   39  ls
+   40  cd
+   41  pwd
+   42  cd Masaüstü
+   43  [200~cd /c/Users/mrysu/Desktop
+   44  ls /c/Users/mrysu
+   45  pwd
+   46  cd desktop
+   47  cd masaüstü
+   48  cd masaustu
+   49  ls
+   50  [200~cd /c/Users/mrysu/Desktop
+   51  cd /c/Users/mrysu/Desktop
+   52  ped
+   53  pwd
+   54  cd onedrive
+   55  cd masaüstü
+   56  ls
+   57  ls
+   58  dir
+   59  pwd
+   60  clear
+   61  cdSQL
+   62  cd SQL
+   63  touch goit.txt
+   64  ls
+   65  rm Dersler
+   66  mkdir Dersler
+   67  rm goit.txr
+   68  rmdir Dersler
+   69  date
+   70  ping www.google.com
+   71  systeminfo
+   72  ip config
+   73  ipconfig
+   74  clear
+   75  git canfig
+   76   git config --global user.name
+   77  clear
+   78  cd Dersler
+   79  rmd
+   80  cd -7
+   81  cd -
+   82  clear
+   83  pwd
+   84  git add
+   85  git init
+   86  git add .
+   87  git commit -m "ilk versiyon"
+   88  git remote add origin https://github.com/miraysubasi/TEST.git
+   89  git push -u origin main
+   90  git push -u origin master
+   91  git branch
+   92  git branch miray
+   93  git branch
+   94  git checkout miray
+   95  git branch 
+   96  git checkout master
+   97  git checkout miray
+   98  git checkout master
+   99  git add
+  100  git add .
+  101  git commit -m "Master ilk commit"
+  102  git checkout miray
+  103  git checkout miray
+  104  git checkout master
+  105  git merge miray
+  106  git add .
+  107  git push
+  108  git init
+  109  git add .
+  110  git commit -m "v1"
+  111  git config --global user.email "mry.subasi@gmail.com"
+  112  git commit -m "v1"
+  113  git remote add origin https://github.com/miraysubasi/TEST.git
+  114  clear
+  115  git branch
+  116  git push
+  117  git checkout miray
+  118  git push
+  119  git push --set-upstream origin miray
+  120  git add .
+  121  git commit -m "Son versiyon"
+  122  git push
+  123  git merge master
+  124  git add .
+  125  git push
+  126  git commit -m "vson"
+  127  git add .
+  128  git commit -m "son"
+  129  git checkout master
+  130  git add .
+  131  git commit -m "son"
+  132  git add .
+  133  git checkout miray
+  134  git push
+  135  git merge master
+  136  git add -
+  137  git add .
+  138  git push
+  139  git add .
+  140  git commit -m "son versiyon"
+  141  git push
+  142  clear
+  143  cd
+  144  cd onedrive
+  145  cd masaüstü
+  146  cd HW_!=
+  147  cd HW_10
+  148  git add
+  149  git init
+  150  git remote add origin https://github.com/miraysubasi/HW_10.git
+  151  git status
+  152  git add ...
+  153  git add .
+  154  git commit
+  155  git add .
+  156  git commit
+  157  git config --global user.email "mry.subasi@gmail.com"
+  158  git config --global user.name "miray"
+  159  git add .
+  160  cd main_test.txt
+  161  git add .
+  162  git add .
+  163  git commit
+  164  [200~rm /c/Users/mrysu/OneDrive/Masaüstü/HW_10/.git/.COMMIT_EDITMSG.swp
+  165  git add .
+  166  git commit
+  167  git clone https://github.com/miraysubasi/HW_10.git~
+  168  git clone https://github.com/miraysubasi/HW_10.git
+  169  cd
+  170  cd Onedrive
+  171  cd Masaüstü
+  172  echo text_ignore.txt
+  173  git status
+  174  cd HW_10
+  175  touch text_ignore.txt
+  176  git status
+  177  git add .
+  178  [200~
+  179  git commit -m "Add .gitignore with text_ignore.txt"
+  180  touch main_test.txt
+  181  git add .
+  182  git commit -m "Add main_test.txt"
+  183  git checkout -b develop,
+  184  touch develop_test.txt
+  185  git add .
+  186  git commit -m "Add develop_test.txt"
+  187  echo "Test data for develop branch"
+  188  git status
+  189  git add .
+  190  git commit -m "Update develop_test.txt"
+  191  git checkout main
+  192  git merge develop,
+  193  git checkout master
+  194  git merge develop,
+  195  git log --online --graph --decorate
+  196  touch text_ignore.txt
+  197  echo "text_ignore.txt"
+  198  git status
+  199  git add .
+  200  git commit -m "Add .gitignore with text_ignore.txt"
+  201  touch main_test.txt
+  202  git add .
+  203  git commit -m "Add main_test.txt"
+  204  git checkout -b develop
+  205  touch develop_test.txt
+  206  git add .
+  207  git commit -m "Add develop_test.txt"
+  208  echo "Test data for develop branch"
+  209  git status
+  210  git add .
+  211  git commit -m "Update develop_test.txt
+  212  git commit -m "Update develop_test.txt"
+  213  clear
+  214  git commit -m "Update develop_test.txt"
+  215  git commit -m "Update develop_test.txt"
+  216  git checkout master
+  217  git merge develop
+  218  git log --oneline --graph --decorate
+  219  history
+  220  git add .
+  221  git commit -m "Save command history to command_list.csv"
+  222  git push origin master
+  223  git push origin main
+  224  git checkout main
+  225  git push origin master
+  226  git add .
+  227  git push origin master
+  228  git push origin develop
+  229  git branch -M main 
+  230  git push origin main
+  231  git pull --rebase origin main
+  232  git push -f origin main
+  233  git push -f origin main
+  234  history
+  235  git add .
+  236  git commit -m "Add command_list.csv"
+  237  git push origin main
+  238  history > command_list.csv
